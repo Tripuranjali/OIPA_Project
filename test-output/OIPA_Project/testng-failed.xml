@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OIPA_Project]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.OIPA_Project.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="SIT Smoke Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.OIPA_Project.TestCases.TC_NonSuperEapp_03">
+        <methods>
+          <include name="setup"/>
+          <include name="NonSuperEapp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.OIPA_Project.TestCases.TC_NonSuperEapp_03 -->
+    </classes>
+  </test> <!-- SIT Smoke Test(failed) -->
+</suite> <!-- Failed suite [OIPA_Project] -->

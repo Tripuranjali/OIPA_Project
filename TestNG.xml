@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0">
+
+<suite name="OIPA_Project">
+	
+ 	<listeners>
+		<listener class-name="com.OIPA_Project.Utilities.Reporting"/>
+	</listeners>
+	
+	<test name="SIT Smoke Test">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<!--<class name="com.OIPA_Project.TestCases.TC_LoginTest_01"/>-->
+			<!--<class name="com.OIPA_Project.TestCases.TC_LoginTestDDT_02"/>-->
+			<class name="com.OIPA_Project.TestCases.TC_NonSuperEapp_03"/>		
+		</classes>		
+	</test>
+	
+</suite>
