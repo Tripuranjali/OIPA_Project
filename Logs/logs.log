@@ -1079,3 +1079,31 @@
 21/Jul/2022 14:41:41,514- OIPA_Project: Proceeded to apply
 21/Jul/2022 14:41:51,568- OIPA_Project: Proceeded to eapp
 21/Jul/2022 14:42:54,406- OIPA_Project: ------------------------------------------------------------------------------------------------
+21/Jul/2022 21:17:52,599- OIPA_Project: Testing in Chrome browser
+21/Jul/2022 21:17:59,327- OIPA_Project: SIT URL Launched
+21/Jul/2022 21:18:11,406- OIPA_Project: UserName Entered Successfully
+21/Jul/2022 21:18:11,453- OIPA_Project: Password Entered Successfully
+21/Jul/2022 21:18:11,489- OIPA_Project: Logged into IE - SIT Successfully
+21/Jul/2022 21:18:31,685- OIPA_Project: New Quote clicked Successfully
+21/Jul/2022 21:18:39,166- OIPA_Project: Adviser selected Successfully
+21/Jul/2022 21:18:49,244- OIPA_Project: FirstName entered Successfully
+21/Jul/2022 21:18:49,299- OIPA_Project: LastName entered Successfully
+21/Jul/2022 21:18:49,344- OIPA_Project: Gender selected Successfully
+21/Jul/2022 21:18:49,390- OIPA_Project: Smokerstatus selected Successfully
+21/Jul/2022 21:18:54,494- OIPA_Project: Birthdate entered Successfully
+21/Jul/2022 21:18:54,674- OIPA_Project: state selected Successfully
+21/Jul/2022 21:18:54,927- OIPA_Project: Occupation selected Successfully
+21/Jul/2022 21:19:04,000- OIPA_Project: Annual Income entered Successfully
+21/Jul/2022 21:19:06,124- OIPA_Project: purpose of app selected Successfully
+21/Jul/2022 21:19:11,237- OIPA_Project: Non Super Ownership selected Successfully
+21/Jul/2022 21:19:19,348- OIPA_Project: Employment status selected Successfully
+21/Jul/2022 21:19:29,403- OIPA_Project: Life cover selected Successfully
+21/Jul/2022 21:19:34,471- OIPA_Project: Life cover Benefit amount entered Successfully
+21/Jul/2022 21:19:34,586- OIPA_Project: Life cover Premium type selected Successfully
+21/Jul/2022 21:19:39,645- OIPA_Project: Life cover selected as Outside Super Successfully
+21/Jul/2022 21:19:42,771- OIPA_Project: Life cover purpose selected  Successfully
+21/Jul/2022 21:20:04,835- OIPA_Project: Premium calculated Successfully
+21/Jul/2022 21:20:09,888- OIPA_Project: Quote created successfully
+21/Jul/2022 21:20:19,937- OIPA_Project: Proceeded to apply
+21/Jul/2022 21:20:29,992- OIPA_Project: Proceeded to eapp
+21/Jul/2022 21:21:30,951- OIPA_Project: ------------------------------------------------------------------------------------------------

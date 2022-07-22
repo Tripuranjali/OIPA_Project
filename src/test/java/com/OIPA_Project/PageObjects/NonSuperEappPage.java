@@ -151,9 +151,9 @@ public class NonSuperEappPage {
 	@CacheLookup
 	WebElement nextone;
 	
-//	@FindBy(xpath="//a[@id='eapp-tab']")
-//	@CacheLookup
-//	WebElement btnapply;
+	@FindBy(xpath="//*[@id='qtnTitle_Templates_AskTitle_117__chosen']")
+	@CacheLookup
+	WebElement Institle;
 //	
 //	@FindBy(xpath="//a[@id='eapp-tab']")
 //	@CacheLookup
