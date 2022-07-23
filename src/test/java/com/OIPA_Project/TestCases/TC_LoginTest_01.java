@@ -30,16 +30,17 @@ public class TC_LoginTest_01 extends BaseClass {
 		
 		driver.manage().window().maximize();
 		
-		if (driver.getTitle().equals("InsuranceElements")) {
+		if (driver.getTitle().equals("InsuranceElements12")) {
 			
 			Assert.assertTrue(true);
 			logger.info("Home Page loaded Successfully");
 			
 		}
 		else {
+			captureScreen(driver, "logintest");
 			logger.info("Logged in but Home page not loaded (OR) Title is mismatched");
 			Assert.assertTrue(false);
-			captureScreen(driver, "logintest");			
+					
 		}
 		
 		

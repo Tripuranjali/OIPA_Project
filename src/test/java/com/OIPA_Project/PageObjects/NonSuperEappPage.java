@@ -1,25 +1,42 @@
 package com.OIPA_Project.PageObjects;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 //import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+//import java.time.format.DateTimeFormatter;
 import java.util.List;
+//import java.util.Random;
 
-import org.openqa.selenium.JavascriptExecutor;
+import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.junit.Assert;
+
+//import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
+//import org.openqa.selenium.support.ui.Select;
 
-public class NonSuperEappPage {
+public class NonSuperEappPage extends BaseClass  {
 	
-	WebDriver ldriver;
+	public WebDriver ldriver;
+	public Logger logger;
+	
 	
 	public NonSuperEappPage(WebDriver rdriver) {
 		ldriver = rdriver;
 		PageFactory.initElements(rdriver, this);
+		logger=Logger.getLogger("OIPA_Project");
+		PropertyConfigurator.configure("log4j.properties");
 	}
 	
 	@FindBy(xpath="//*[@id='boxes-wrapper']/div/div[2]/a/span") // NewOutoe
@@ -151,34 +168,65 @@ public class NonSuperEappPage {
 	@CacheLookup
 	WebElement nextone;
 	
-	@FindBy(xpath="//*[@id='qtnTitle_Templates_AskTitle_117__chosen']")
+	@FindBy(xpath="//div[@id='qtnTitle_Templates_AskTitle_117__chosen']")
 	@CacheLookup
-	WebElement Institle;
-//	
-//	@FindBy(xpath="//a[@id='eapp-tab']")
-//	@CacheLookup
-//	WebElement btnapply;
-//	
-//	@FindBy(xpath="//a[@id='eapp-tab']")
-//	@CacheLookup
-//	WebElement btnapply;
-//	
-//	@FindBy(xpath="//a[@id='eapp-tab']")
-//	@CacheLookup
-//	WebElement btnapply;
-//	
-//	@FindBy(xpath="//a[@id='eapp-tab']")
-//	@CacheLookup
-//	WebElement btnapply;
-//	
-//	@FindBy(xpath="//a[@id='eapp-tab']")
-//	@CacheLookup
-//	WebElement btnapply;
-//	
+	WebElement clickInstitle;
 	
+	@FindBy(xpath="//ul[@class='chosen-results'][1]/li")
+	@CacheLookup
+	List <WebElement> selecttitle;	
+	
+	
+	@FindBy(xpath="//*[@id='secAddress_Templates_AskAddress_120_']/div/div[2]/div/div[2]/span/input[2]")
+	@CacheLookup
+	WebElement Insaddress;
+	
+	@FindBy(xpath="//*[@id='qtnAddressLine1_Templates_AskAddress_120_']")
+	@CacheLookup
+	WebElement Insaddress1;	
+	
+	@FindBy(xpath="//*[@id='qtnAddressCity_Templates_AskAddress_120_']")
+	@CacheLookup
+	WebElement suburb;
+	
+	@FindBy(xpath="//*[@id='qtnAddressZip_Templates_AskAddress_120_']")
+	@CacheLookup
+	WebElement postcode;
+	
+	@FindBy(xpath="//*[@id='qtnMailingAddressSameAsResidential_Templates_MailingAndResidentialAddresses_119_']")
+	@CacheLookup
+	WebElement Insmailingaddress;
+	
+	@FindBy(xpath="//*[@id='qtnMobileNumber_Templates_ContactInfo_124_']")
+	@CacheLookup
+	WebElement Insmobile;
+	
+	@FindBy(xpath="//*[@id='qtnPhoneNumber_Templates_AskPhone_126_']")
+	@CacheLookup
+	WebElement Insmobiletwo;
+	
+	@FindBy(xpath="//*[@id='qtnPhoneNumber_Templates_AskPhone_125_']")
+	@CacheLookup
+	WebElement Insmobilethree;
+	
+	@FindBy(xpath="//*[@id='qtnEmail_Templates_AskEmail_127_']")
+	@CacheLookup
+	WebElement Insemail;
+	
+	@FindBy(xpath="//*[@id='navigation-page-section']/div[3]/a")
+	@CacheLookup
+	WebElement nexttwo;
+	
+	
+	
+
+	
+	
+
+
 					
 					
-					
+
 	
 // Action on Web Elements(Methods)
 	
@@ -358,10 +406,78 @@ public class NonSuperEappPage {
 	public void onenext() {
 		nextone.click();
 	}
+	
+	public void Institleset() {
+		clickInstitle.click();
+	}
+	
+	public void selecttitle() {
+		for(WebElement titletype: selecttitle) {
+			if(titletype.getText().equals("MISS")) {
+				titletype.click();
+			}
+		}
+		
+	}
+	
+	
+	public void Insaddset(String address) throws InterruptedException {
+		Insaddress.sendKeys(address);
+		Thread.sleep(5000);
+		Insaddress.sendKeys(Keys.ARROW_DOWN,Keys.ENTER);
+	}	
+	
+	
+	public void Insmailingaddset() {
+		Insmailingaddress.click();
+	}
+	
+	public void Insnumoneset(String numone) {
+		
+		Insmobile.clear();
+		Insmobile.sendKeys(numone);
+	}
+	
+	public void Insnumtwoset(String numtwo) {
+		
+		Insmobiletwo.clear();
+		Insmobiletwo.sendKeys(numtwo);
+	}
+	
+	public void Insnumthreeset(String numthree) {		
+		Insmobilethree.clear();
+		Insmobilethree.sendKeys(numthree);
+	}
+	
+	public void Insemailset(String Insemailid) {
+		Insemail.sendKeys(Insemailid);
+		
+		
+	}
+	
+	public void twonext() {
+		nexttwo.click();
+	}
+	
+	
+	
+	
+
 
 	
+
+			
+	
+	
+
+		
 	
 }
+		
+
+	
+	
+
 	
 
 	
@@ -371,12 +487,8 @@ public class NonSuperEappPage {
 	
 	
 	
-//	
-//	public void setbirthdate(){    
-//		  DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/mm/yyyy");
-//		  LocalDate localDate = LocalDate.now();
-//		  txtbirthdate.sendKeys(dtf.format(localDate));
-//		}
+	
+
 		
 	
 	

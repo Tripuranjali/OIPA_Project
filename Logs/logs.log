@@ -1107,3 +1107,715 @@
 21/Jul/2022 21:20:19,937- OIPA_Project: Proceeded to apply
 21/Jul/2022 21:20:29,992- OIPA_Project: Proceeded to eapp
 21/Jul/2022 21:21:30,951- OIPA_Project: ------------------------------------------------------------------------------------------------
+22/Jul/2022 20:00:00,223- OIPA_Project: Testing in Chrome browser
+22/Jul/2022 20:00:06,993- OIPA_Project: SIT URL Launched
+22/Jul/2022 20:00:19,070- OIPA_Project: UserName Entered Successfully
+22/Jul/2022 20:00:19,123- OIPA_Project: Password Entered Successfully
+22/Jul/2022 20:00:19,163- OIPA_Project: Logged into IE - SIT Successfully
+22/Jul/2022 20:00:39,370- OIPA_Project: New Quote clicked Successfully
+22/Jul/2022 20:00:50,165- OIPA_Project: Adviser selected Successfully
+22/Jul/2022 20:01:00,252- OIPA_Project: FirstName entered Successfully
+22/Jul/2022 20:01:00,329- OIPA_Project: LastName entered Successfully
+22/Jul/2022 20:01:00,383- OIPA_Project: Gender selected Successfully
+22/Jul/2022 20:01:00,432- OIPA_Project: Smokerstatus selected Successfully
+22/Jul/2022 20:01:05,560- OIPA_Project: Birthdate entered Successfully
+22/Jul/2022 20:01:05,750- OIPA_Project: state selected Successfully
+22/Jul/2022 20:01:06,049- OIPA_Project: Occupation selected Successfully
+22/Jul/2022 20:01:15,137- OIPA_Project: Annual Income entered Successfully
+22/Jul/2022 20:01:17,280- OIPA_Project: purpose of app selected Successfully
+22/Jul/2022 20:01:22,412- OIPA_Project: Non Super Ownership selected Successfully
+22/Jul/2022 20:01:30,545- OIPA_Project: Employment status selected Successfully
+22/Jul/2022 20:01:40,596- OIPA_Project: Life cover selected Successfully
+22/Jul/2022 20:01:45,665- OIPA_Project: Life cover Benefit amount entered Successfully
+22/Jul/2022 20:01:45,787- OIPA_Project: Life cover Premium type selected Successfully
+22/Jul/2022 20:01:50,843- OIPA_Project: Life cover selected as Outside Super Successfully
+22/Jul/2022 20:01:53,987- OIPA_Project: Life cover purpose selected  Successfully
+22/Jul/2022 20:02:16,039- OIPA_Project: Premium calculated Successfully
+22/Jul/2022 20:02:21,085- OIPA_Project: Quote created successfully
+22/Jul/2022 20:02:31,129- OIPA_Project: Proceeded to apply
+22/Jul/2022 20:02:41,182- OIPA_Project: Proceeded to eapp
+22/Jul/2022 20:03:35,284- OIPA_Project: Cover section verified successfully
+22/Jul/2022 20:10:31,583- OIPA_Project: Testing in Chrome browser
+22/Jul/2022 20:10:36,858- OIPA_Project: SIT URL Launched
+22/Jul/2022 20:10:48,932- OIPA_Project: UserName Entered Successfully
+22/Jul/2022 20:10:48,978- OIPA_Project: Password Entered Successfully
+22/Jul/2022 20:10:49,020- OIPA_Project: Logged into IE - SIT Successfully
+22/Jul/2022 20:11:09,218- OIPA_Project: New Quote clicked Successfully
+22/Jul/2022 20:11:16,652- OIPA_Project: Adviser selected Successfully
+22/Jul/2022 20:11:26,732- OIPA_Project: FirstName entered Successfully
+22/Jul/2022 20:11:26,799- OIPA_Project: LastName entered Successfully
+22/Jul/2022 20:11:26,847- OIPA_Project: Gender selected Successfully
+22/Jul/2022 20:11:26,892- OIPA_Project: Smokerstatus selected Successfully
+22/Jul/2022 20:11:32,008- OIPA_Project: Birthdate entered Successfully
+22/Jul/2022 20:11:32,190- OIPA_Project: state selected Successfully
+22/Jul/2022 20:11:32,477- OIPA_Project: Occupation selected Successfully
+22/Jul/2022 20:11:41,563- OIPA_Project: Annual Income entered Successfully
+22/Jul/2022 20:11:43,699- OIPA_Project: purpose of app selected Successfully
+22/Jul/2022 20:11:48,822- OIPA_Project: Non Super Ownership selected Successfully
+22/Jul/2022 20:11:56,945- OIPA_Project: Employment status selected Successfully
+22/Jul/2022 20:12:07,000- OIPA_Project: Life cover selected Successfully
+22/Jul/2022 20:12:12,084- OIPA_Project: Life cover Benefit amount entered Successfully
+22/Jul/2022 20:12:12,199- OIPA_Project: Life cover Premium type selected Successfully
+22/Jul/2022 20:12:17,263- OIPA_Project: Life cover selected as Outside Super Successfully
+22/Jul/2022 20:12:20,415- OIPA_Project: Life cover purpose selected  Successfully
+22/Jul/2022 20:12:42,480- OIPA_Project: Premium calculated Successfully
+22/Jul/2022 20:12:47,534- OIPA_Project: Quote created successfully
+22/Jul/2022 20:12:57,582- OIPA_Project: Proceeded to apply
+22/Jul/2022 20:13:07,647- OIPA_Project: Proceeded to eapp
+22/Jul/2022 20:13:43,607- OIPA_Project: Cover section verified successfully
+22/Jul/2022 20:18:13,061- OIPA_Project: Testing in Chrome browser
+22/Jul/2022 20:18:19,783- OIPA_Project: SIT URL Launched
+22/Jul/2022 20:18:31,847- OIPA_Project: UserName Entered Successfully
+22/Jul/2022 20:18:31,894- OIPA_Project: Password Entered Successfully
+22/Jul/2022 20:18:31,935- OIPA_Project: Logged into IE - SIT Successfully
+22/Jul/2022 20:18:52,140- OIPA_Project: New Quote clicked Successfully
+22/Jul/2022 20:18:59,804- OIPA_Project: Adviser selected Successfully
+22/Jul/2022 20:19:09,881- OIPA_Project: FirstName entered Successfully
+22/Jul/2022 20:19:09,950- OIPA_Project: LastName entered Successfully
+22/Jul/2022 20:19:10,002- OIPA_Project: Gender selected Successfully
+22/Jul/2022 20:19:10,047- OIPA_Project: Smokerstatus selected Successfully
+22/Jul/2022 20:19:15,152- OIPA_Project: Birthdate entered Successfully
+22/Jul/2022 20:19:15,357- OIPA_Project: state selected Successfully
+22/Jul/2022 20:19:15,626- OIPA_Project: Occupation selected Successfully
+22/Jul/2022 20:19:24,712- OIPA_Project: Annual Income entered Successfully
+22/Jul/2022 20:19:26,862- OIPA_Project: purpose of app selected Successfully
+22/Jul/2022 20:19:31,987- OIPA_Project: Non Super Ownership selected Successfully
+22/Jul/2022 20:19:40,113- OIPA_Project: Employment status selected Successfully
+22/Jul/2022 20:19:50,166- OIPA_Project: Life cover selected Successfully
+22/Jul/2022 20:19:55,246- OIPA_Project: Life cover Benefit amount entered Successfully
+22/Jul/2022 20:19:55,363- OIPA_Project: Life cover Premium type selected Successfully
+22/Jul/2022 20:20:00,440- OIPA_Project: Life cover selected as Outside Super Successfully
+22/Jul/2022 20:20:03,579- OIPA_Project: Life cover purpose selected  Successfully
+22/Jul/2022 20:20:25,629- OIPA_Project: Premium calculated Successfully
+22/Jul/2022 20:20:30,689- OIPA_Project: Quote created successfully
+22/Jul/2022 20:20:40,736- OIPA_Project: Proceeded to apply
+22/Jul/2022 20:20:50,795- OIPA_Project: Proceeded to eapp
+22/Jul/2022 20:21:26,764- OIPA_Project: Cover section verified successfully
+22/Jul/2022 20:35:10,225- OIPA_Project: Testing in Chrome browser
+22/Jul/2022 20:35:16,342- OIPA_Project: SIT URL Launched
+22/Jul/2022 20:35:28,418- OIPA_Project: UserName Entered Successfully
+22/Jul/2022 20:35:28,474- OIPA_Project: Password Entered Successfully
+22/Jul/2022 20:35:28,517- OIPA_Project: Logged into IE - SIT Successfully
+22/Jul/2022 20:35:48,715- OIPA_Project: New Quote clicked Successfully
+22/Jul/2022 20:35:56,436- OIPA_Project: Adviser selected Successfully
+22/Jul/2022 20:36:06,528- OIPA_Project: FirstName entered Successfully
+22/Jul/2022 20:36:06,597- OIPA_Project: LastName entered Successfully
+22/Jul/2022 20:36:06,647- OIPA_Project: Gender selected Successfully
+22/Jul/2022 20:36:06,697- OIPA_Project: Smokerstatus selected Successfully
+22/Jul/2022 20:36:11,810- OIPA_Project: Birthdate entered Successfully
+22/Jul/2022 20:36:12,003- OIPA_Project: state selected Successfully
+22/Jul/2022 20:36:12,265- OIPA_Project: Occupation selected Successfully
+22/Jul/2022 20:36:21,341- OIPA_Project: Annual Income entered Successfully
+22/Jul/2022 20:36:23,477- OIPA_Project: purpose of app selected Successfully
+22/Jul/2022 20:36:28,625- OIPA_Project: Non Super Ownership selected Successfully
+22/Jul/2022 20:36:36,760- OIPA_Project: Employment status selected Successfully
+22/Jul/2022 20:36:46,813- OIPA_Project: Life cover selected Successfully
+22/Jul/2022 20:36:51,879- OIPA_Project: Life cover Benefit amount entered Successfully
+22/Jul/2022 20:36:51,995- OIPA_Project: Life cover Premium type selected Successfully
+22/Jul/2022 20:36:57,066- OIPA_Project: Life cover selected as Outside Super Successfully
+22/Jul/2022 20:37:00,226- OIPA_Project: Life cover purpose selected  Successfully
+22/Jul/2022 20:37:22,277- OIPA_Project: Premium calculated Successfully
+22/Jul/2022 20:37:27,328- OIPA_Project: Quote created successfully
+22/Jul/2022 20:37:37,373- OIPA_Project: Proceeded to apply
+22/Jul/2022 20:37:47,423- OIPA_Project: Proceeded to eapp
+22/Jul/2022 20:38:24,392- OIPA_Project: Cover section verified successfully
+22/Jul/2022 20:49:25,888- OIPA_Project: Testing in Chrome browser
+22/Jul/2022 20:49:32,922- OIPA_Project: SIT URL Launched
+22/Jul/2022 20:49:44,985- OIPA_Project: UserName Entered Successfully
+22/Jul/2022 20:49:45,031- OIPA_Project: Password Entered Successfully
+22/Jul/2022 20:49:45,069- OIPA_Project: Logged into IE - SIT Successfully
+22/Jul/2022 20:50:05,273- OIPA_Project: New Quote clicked Successfully
+22/Jul/2022 20:50:12,913- OIPA_Project: Adviser selected Successfully
+22/Jul/2022 20:50:22,990- OIPA_Project: FirstName entered Successfully
+22/Jul/2022 20:50:23,050- OIPA_Project: LastName entered Successfully
+22/Jul/2022 20:50:23,099- OIPA_Project: Gender selected Successfully
+22/Jul/2022 20:50:23,147- OIPA_Project: Smokerstatus selected Successfully
+22/Jul/2022 20:50:28,254- OIPA_Project: Birthdate entered Successfully
+22/Jul/2022 20:50:28,449- OIPA_Project: state selected Successfully
+22/Jul/2022 20:50:28,700- OIPA_Project: Occupation selected Successfully
+22/Jul/2022 20:50:37,774- OIPA_Project: Annual Income entered Successfully
+22/Jul/2022 20:50:39,926- OIPA_Project: purpose of app selected Successfully
+22/Jul/2022 20:50:45,057- OIPA_Project: Non Super Ownership selected Successfully
+22/Jul/2022 20:50:53,185- OIPA_Project: Employment status selected Successfully
+22/Jul/2022 20:51:03,229- OIPA_Project: Life cover selected Successfully
+22/Jul/2022 20:51:08,317- OIPA_Project: Life cover Benefit amount entered Successfully
+22/Jul/2022 20:51:08,435- OIPA_Project: Life cover Premium type selected Successfully
+22/Jul/2022 20:51:13,496- OIPA_Project: Life cover selected as Outside Super Successfully
+22/Jul/2022 20:51:16,638- OIPA_Project: Life cover purpose selected  Successfully
+22/Jul/2022 20:51:38,694- OIPA_Project: Premium calculated Successfully
+22/Jul/2022 20:51:43,745- OIPA_Project: Quote created successfully
+22/Jul/2022 20:51:53,792- OIPA_Project: Proceeded to apply
+22/Jul/2022 20:52:03,856- OIPA_Project: Proceeded to eapp
+22/Jul/2022 20:52:39,849- OIPA_Project: Cover section verified successfully
+22/Jul/2022 20:53:42,047- OIPA_Project: Insured section verified successfully
+22/Jul/2022 23:33:23,072- OIPA_Project: Testing in Chrome browser
+22/Jul/2022 23:33:29,401- OIPA_Project: SIT URL Launched
+22/Jul/2022 23:33:41,465- OIPA_Project: UserName Entered Successfully
+22/Jul/2022 23:33:41,519- OIPA_Project: Password Entered Successfully
+22/Jul/2022 23:33:41,560- OIPA_Project: Logged into IE - SIT Successfully
+22/Jul/2022 23:34:01,762- OIPA_Project: New Quote clicked Successfully
+22/Jul/2022 23:34:09,718- OIPA_Project: Adviser selected Successfully
+22/Jul/2022 23:34:19,795- OIPA_Project: FirstName entered Successfully
+22/Jul/2022 23:34:19,860- OIPA_Project: LastName entered Successfully
+22/Jul/2022 23:34:19,911- OIPA_Project: Gender selected Successfully
+22/Jul/2022 23:34:19,957- OIPA_Project: Smokerstatus selected Successfully
+22/Jul/2022 23:34:25,070- OIPA_Project: Birthdate entered Successfully
+22/Jul/2022 23:34:25,275- OIPA_Project: state selected Successfully
+22/Jul/2022 23:34:25,537- OIPA_Project: Occupation selected Successfully
+22/Jul/2022 23:34:34,636- OIPA_Project: Annual Income entered Successfully
+22/Jul/2022 23:34:36,782- OIPA_Project: purpose of app selected Successfully
+22/Jul/2022 23:34:41,909- OIPA_Project: Non Super Ownership selected Successfully
+22/Jul/2022 23:34:50,040- OIPA_Project: Employment status selected Successfully
+22/Jul/2022 23:35:00,086- OIPA_Project: Life cover selected Successfully
+22/Jul/2022 23:35:05,165- OIPA_Project: Life cover Benefit amount entered Successfully
+22/Jul/2022 23:35:05,287- OIPA_Project: Life cover Premium type selected Successfully
+22/Jul/2022 23:35:10,352- OIPA_Project: Life cover selected as Outside Super Successfully
+22/Jul/2022 23:35:13,495- OIPA_Project: Life cover purpose selected  Successfully
+22/Jul/2022 23:35:35,557- OIPA_Project: Premium calculated Successfully
+22/Jul/2022 23:35:40,605- OIPA_Project: Quote created successfully
+22/Jul/2022 23:35:50,660- OIPA_Project: Proceeded to apply
+22/Jul/2022 23:36:00,722- OIPA_Project: Proceeded to eapp
+22/Jul/2022 23:36:37,594- OIPA_Project: Cover section verified successfully
+22/Jul/2022 23:42:28,312- OIPA_Project: Testing in Chrome browser
+22/Jul/2022 23:42:34,591- OIPA_Project: SIT URL Launched
+22/Jul/2022 23:42:46,673- OIPA_Project: UserName Entered Successfully
+22/Jul/2022 23:42:46,726- OIPA_Project: Password Entered Successfully
+22/Jul/2022 23:42:46,768- OIPA_Project: Logged into IE - SIT Successfully
+22/Jul/2022 23:43:06,967- OIPA_Project: New Quote clicked Successfully
+22/Jul/2022 23:43:14,590- OIPA_Project: Adviser selected Successfully
+22/Jul/2022 23:43:24,664- OIPA_Project: FirstName entered Successfully
+22/Jul/2022 23:43:24,726- OIPA_Project: LastName entered Successfully
+22/Jul/2022 23:43:24,774- OIPA_Project: Gender selected Successfully
+22/Jul/2022 23:43:24,821- OIPA_Project: Smokerstatus selected Successfully
+22/Jul/2022 23:43:29,942- OIPA_Project: Birthdate entered Successfully
+22/Jul/2022 23:43:30,144- OIPA_Project: state selected Successfully
+22/Jul/2022 23:43:30,412- OIPA_Project: Occupation selected Successfully
+22/Jul/2022 23:43:39,494- OIPA_Project: Annual Income entered Successfully
+22/Jul/2022 23:43:41,642- OIPA_Project: purpose of app selected Successfully
+22/Jul/2022 23:43:46,769- OIPA_Project: Non Super Ownership selected Successfully
+22/Jul/2022 23:43:54,902- OIPA_Project: Employment status selected Successfully
+22/Jul/2022 23:44:04,954- OIPA_Project: Life cover selected Successfully
+22/Jul/2022 23:44:10,029- OIPA_Project: Life cover Benefit amount entered Successfully
+22/Jul/2022 23:44:10,149- OIPA_Project: Life cover Premium type selected Successfully
+22/Jul/2022 23:44:15,220- OIPA_Project: Life cover selected as Outside Super Successfully
+22/Jul/2022 23:44:18,370- OIPA_Project: Life cover purpose selected  Successfully
+22/Jul/2022 23:44:40,432- OIPA_Project: Premium calculated Successfully
+22/Jul/2022 23:44:45,492- OIPA_Project: Quote created successfully
+22/Jul/2022 23:44:55,533- OIPA_Project: Proceeded to apply
+22/Jul/2022 23:45:05,604- OIPA_Project: Proceeded to eapp
+22/Jul/2022 23:45:41,610- OIPA_Project: Cover section verified successfully
+22/Jul/2022 23:47:01,882- OIPA_Project: Insured section verified successfully
+23/Jul/2022 00:15:32,596- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 00:15:38,387- OIPA_Project: SIT URL Launched
+23/Jul/2022 00:15:50,463- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 00:15:50,523- OIPA_Project: Password Entered Successfully
+23/Jul/2022 00:15:50,574- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 00:16:10,795- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 00:16:18,286- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 00:16:28,359- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 00:16:28,425- OIPA_Project: LastName entered Successfully
+23/Jul/2022 00:16:28,475- OIPA_Project: Gender selected Successfully
+23/Jul/2022 00:16:28,524- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 00:16:33,640- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 00:16:33,830- OIPA_Project: state selected Successfully
+23/Jul/2022 00:16:34,098- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 00:16:43,180- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 00:16:45,313- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 00:16:50,434- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 00:16:58,560- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 00:17:08,607- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 00:17:13,678- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 00:17:13,792- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 00:17:18,861- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 00:17:22,011- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 00:17:44,066- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 00:17:49,121- OIPA_Project: Quote created successfully
+23/Jul/2022 00:17:59,166- OIPA_Project: Proceeded to apply
+23/Jul/2022 00:18:09,221- OIPA_Project: Proceeded to eapp
+23/Jul/2022 00:18:45,319- OIPA_Project: Cover section verified successfully
+23/Jul/2022 00:20:04,517- OIPA_Project: Insured section not verified
+23/Jul/2022 00:34:49,181- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 00:34:56,138- OIPA_Project: SIT URL Launched
+23/Jul/2022 00:35:08,206- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 00:35:08,253- OIPA_Project: Password Entered Successfully
+23/Jul/2022 00:35:08,292- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 00:35:28,493- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 00:35:36,233- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 00:35:46,320- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 00:35:46,390- OIPA_Project: LastName entered Successfully
+23/Jul/2022 00:35:46,443- OIPA_Project: Gender selected Successfully
+23/Jul/2022 00:35:46,492- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 00:35:51,608- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 00:35:51,827- OIPA_Project: state selected Successfully
+23/Jul/2022 00:35:52,102- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 00:36:01,179- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 00:36:03,315- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 00:36:08,447- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 00:36:16,569- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 00:36:26,624- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 00:36:31,702- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 00:36:31,816- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 00:36:36,889- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 00:36:40,040- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 00:37:02,102- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 00:37:07,153- OIPA_Project: Quote created successfully
+23/Jul/2022 00:37:17,206- OIPA_Project: Proceeded to apply
+23/Jul/2022 00:37:27,264- OIPA_Project: Proceeded to eapp
+23/Jul/2022 00:38:03,257- OIPA_Project: Cover section verified successfully
+23/Jul/2022 00:43:31,899- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 00:43:38,076- OIPA_Project: SIT URL Launched
+23/Jul/2022 00:43:50,147- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 00:43:50,203- OIPA_Project: Password Entered Successfully
+23/Jul/2022 00:43:50,248- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 00:44:10,463- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 00:44:18,285- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 00:44:28,351- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 00:44:28,407- OIPA_Project: LastName entered Successfully
+23/Jul/2022 00:44:28,458- OIPA_Project: Gender selected Successfully
+23/Jul/2022 00:44:28,504- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 00:44:33,618- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 00:44:33,808- OIPA_Project: state selected Successfully
+23/Jul/2022 00:44:34,073- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 00:44:43,155- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 00:44:45,303- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 00:44:50,439- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 00:44:58,572- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 00:45:08,632- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 00:45:13,706- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 00:45:13,829- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 00:45:18,890- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 00:45:22,035- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 00:45:44,107- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 00:45:49,163- OIPA_Project: Quote created successfully
+23/Jul/2022 00:45:59,207- OIPA_Project: Proceeded to apply
+23/Jul/2022 00:46:09,269- OIPA_Project: Proceeded to eapp
+23/Jul/2022 00:46:45,394- OIPA_Project: Cover section verified successfully
+23/Jul/2022 00:48:05,973- OIPA_Project: Insured section not verified
+23/Jul/2022 00:52:37,600- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 00:52:43,319- OIPA_Project: SIT URL Launched
+23/Jul/2022 00:52:55,394- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 00:52:55,449- OIPA_Project: Password Entered Successfully
+23/Jul/2022 00:52:55,493- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 00:53:15,699- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 00:53:23,252- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 00:53:33,324- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 00:53:33,381- OIPA_Project: LastName entered Successfully
+23/Jul/2022 00:53:33,430- OIPA_Project: Gender selected Successfully
+23/Jul/2022 00:53:33,474- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 00:53:38,591- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 00:53:38,792- OIPA_Project: state selected Successfully
+23/Jul/2022 00:53:39,058- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 00:53:48,131- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 00:53:50,273- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 00:53:55,399- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 00:54:03,534- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 00:54:13,586- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 00:54:18,665- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 00:54:18,782- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 00:54:23,853- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 00:54:26,989- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 00:54:49,045- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 00:54:54,102- OIPA_Project: Quote created successfully
+23/Jul/2022 00:55:04,144- OIPA_Project: Proceeded to apply
+23/Jul/2022 00:55:14,194- OIPA_Project: Proceeded to eapp
+23/Jul/2022 00:55:50,197- OIPA_Project: Cover section verified successfully
+23/Jul/2022 00:57:20,130- OIPA_Project: Insured section not verified
+23/Jul/2022 11:43:49,288- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 11:43:56,062- OIPA_Project: SIT URL Launched
+23/Jul/2022 11:44:08,245- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 11:44:08,394- OIPA_Project: Password Entered Successfully
+23/Jul/2022 11:44:08,504- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 11:44:28,846- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 11:44:36,611- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 11:44:46,829- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 11:44:47,028- OIPA_Project: LastName entered Successfully
+23/Jul/2022 11:44:47,174- OIPA_Project: Gender selected Successfully
+23/Jul/2022 11:44:47,298- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 11:44:52,616- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 11:44:53,079- OIPA_Project: state selected Successfully
+23/Jul/2022 11:44:53,840- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 11:45:03,007- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 11:45:05,346- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 11:45:10,780- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 11:45:19,122- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 11:45:29,248- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 11:45:34,407- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 11:45:34,565- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 11:45:39,641- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 11:45:43,058- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 11:46:05,184- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 11:46:10,329- OIPA_Project: Quote created successfully
+23/Jul/2022 11:46:20,435- OIPA_Project: Proceeded to apply
+23/Jul/2022 11:46:30,498- OIPA_Project: Proceeded to eapp
+23/Jul/2022 11:47:07,141- OIPA_Project: Cover section verified successfully
+23/Jul/2022 11:48:40,631- OIPA_Project: Insured section not verified
+23/Jul/2022 14:09:57,009- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 14:10:04,381- OIPA_Project: SIT URL Launched
+23/Jul/2022 14:10:16,572- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 14:10:16,706- OIPA_Project: Password Entered Successfully
+23/Jul/2022 14:10:16,792- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 14:10:44,830- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 14:11:14,875- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 14:11:25,154- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 14:11:25,376- OIPA_Project: LastName entered Successfully
+23/Jul/2022 14:11:25,609- OIPA_Project: Gender selected Successfully
+23/Jul/2022 14:11:25,828- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 14:11:31,295- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 14:11:32,085- OIPA_Project: state selected Successfully
+23/Jul/2022 14:11:33,036- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 14:11:42,304- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 14:11:44,796- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 14:11:50,425- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 14:11:58,973- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 14:12:09,162- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 14:12:14,400- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 14:12:14,890- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 14:12:20,112- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 14:12:23,394- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 14:12:45,579- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 14:12:50,736- OIPA_Project: Quote created successfully
+23/Jul/2022 14:13:00,849- OIPA_Project: Proceeded to apply
+23/Jul/2022 14:13:11,041- OIPA_Project: Proceeded to eapp
+23/Jul/2022 14:13:47,675- OIPA_Project: Cover section verified successfully
+23/Jul/2022 14:15:21,018- OIPA_Project: Insured section not verified
+23/Jul/2022 14:17:45,452- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 14:17:52,480- OIPA_Project: SIT URL Launched
+23/Jul/2022 14:18:04,703- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 14:18:04,849- OIPA_Project: Password Entered Successfully
+23/Jul/2022 14:18:04,985- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 14:18:33,794- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 14:18:44,533- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 14:18:54,795- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 14:18:55,023- OIPA_Project: LastName entered Successfully
+23/Jul/2022 14:18:55,242- OIPA_Project: Gender selected Successfully
+23/Jul/2022 14:18:55,438- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 14:19:00,857- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 14:19:01,259- OIPA_Project: state selected Successfully
+23/Jul/2022 14:19:01,890- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 14:19:11,163- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 14:19:13,728- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 14:19:19,155- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 14:19:27,699- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 14:19:37,885- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 14:19:43,146- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 14:19:43,526- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 14:19:48,729- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 14:19:52,175- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 14:20:14,347- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 14:20:19,521- OIPA_Project: Quote created successfully
+23/Jul/2022 14:20:29,666- OIPA_Project: Proceeded to apply
+23/Jul/2022 14:20:39,857- OIPA_Project: Proceeded to eapp
+23/Jul/2022 14:21:16,326- OIPA_Project: Cover section verified successfully
+23/Jul/2022 14:22:50,164- OIPA_Project: Insured section not verified
+23/Jul/2022 14:31:22,257- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 14:31:29,691- OIPA_Project: SIT URL Launched
+23/Jul/2022 14:31:41,782- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 14:31:41,839- OIPA_Project: Password Entered Successfully
+23/Jul/2022 14:31:41,885- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 14:33:56,074- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 14:34:03,391- OIPA_Project: SIT URL Launched
+23/Jul/2022 14:34:15,659- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 14:34:15,796- OIPA_Project: Password Entered Successfully
+23/Jul/2022 14:34:15,893- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 14:34:36,167- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 14:34:46,113- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 14:34:56,286- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 14:34:56,420- OIPA_Project: LastName entered Successfully
+23/Jul/2022 14:34:56,535- OIPA_Project: Gender selected Successfully
+23/Jul/2022 14:34:56,657- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 14:35:02,105- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 14:35:02,853- OIPA_Project: state selected Successfully
+23/Jul/2022 14:35:03,536- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 14:35:12,709- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 14:35:15,089- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 14:35:20,451- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 14:35:28,807- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 14:35:38,975- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 14:35:44,139- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 14:35:44,435- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 14:35:49,503- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 14:35:52,707- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 14:36:14,818- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 14:36:19,939- OIPA_Project: Quote created successfully
+23/Jul/2022 14:36:30,032- OIPA_Project: Proceeded to apply
+23/Jul/2022 14:36:40,176- OIPA_Project: Proceeded to eapp
+23/Jul/2022 14:37:17,775- OIPA_Project: Cover section verified successfully
+23/Jul/2022 16:32:59,005- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 16:33:05,131- OIPA_Project: SIT URL Launched
+23/Jul/2022 16:33:17,419- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 16:33:17,641- OIPA_Project: Password Entered Successfully
+23/Jul/2022 16:33:17,820- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 16:33:38,292- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 16:33:46,351- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 16:33:56,614- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 16:33:56,749- OIPA_Project: LastName entered Successfully
+23/Jul/2022 16:33:56,879- OIPA_Project: Gender selected Successfully
+23/Jul/2022 16:33:57,002- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 16:34:02,394- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 16:34:02,794- OIPA_Project: state selected Successfully
+23/Jul/2022 16:34:03,536- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 16:34:12,772- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 16:34:15,153- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 16:34:20,489- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 16:34:28,926- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 16:34:39,092- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 16:34:44,310- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 16:34:44,695- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 16:34:49,898- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 16:34:53,450- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 16:35:15,620- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 16:35:20,781- OIPA_Project: Quote created successfully
+23/Jul/2022 16:35:30,928- OIPA_Project: Proceeded to apply
+23/Jul/2022 16:35:41,047- OIPA_Project: Proceeded to eapp
+23/Jul/2022 16:36:17,549- OIPA_Project: Cover section verified successfully
+23/Jul/2022 16:37:40,292- OIPA_Project: Insured Section not verified successfully
+23/Jul/2022 17:01:52,324- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 17:01:58,998- OIPA_Project: SIT URL Launched
+23/Jul/2022 17:02:11,270- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 17:02:11,385- OIPA_Project: Password Entered Successfully
+23/Jul/2022 17:02:11,476- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 17:02:31,959- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 17:02:40,401- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 17:02:50,660- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 17:02:50,901- OIPA_Project: LastName entered Successfully
+23/Jul/2022 17:02:51,119- OIPA_Project: Gender selected Successfully
+23/Jul/2022 17:02:51,395- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 17:02:56,686- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 17:02:57,067- OIPA_Project: state selected Successfully
+23/Jul/2022 17:02:57,657- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 17:03:06,910- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 17:03:09,293- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 17:03:14,781- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 17:03:23,111- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 17:03:33,234- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 17:03:38,396- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 17:03:38,644- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 17:03:43,785- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 17:03:47,159- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 17:04:09,278- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 17:04:14,384- OIPA_Project: Quote created successfully
+23/Jul/2022 17:04:24,484- OIPA_Project: Proceeded to apply
+23/Jul/2022 17:04:34,615- OIPA_Project: Proceeded to eapp
+23/Jul/2022 17:05:11,211- OIPA_Project: Cover section verified successfully
+23/Jul/2022 17:06:33,506- OIPA_Project: Insured Section not verified successfully
+23/Jul/2022 17:17:10,867- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 17:17:17,408- OIPA_Project: SIT URL Launched
+23/Jul/2022 17:17:29,640- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 17:17:29,753- OIPA_Project: Password Entered Successfully
+23/Jul/2022 17:17:29,852- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 17:17:50,342- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 17:17:58,285- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 17:18:08,518- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 17:18:08,655- OIPA_Project: LastName entered Successfully
+23/Jul/2022 17:18:08,758- OIPA_Project: Gender selected Successfully
+23/Jul/2022 17:18:08,874- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 17:18:14,156- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 17:18:14,578- OIPA_Project: state selected Successfully
+23/Jul/2022 17:18:15,245- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 17:18:24,504- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 17:18:26,766- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 17:18:32,298- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 17:18:40,640- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 17:18:50,811- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 17:18:56,061- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 17:18:56,388- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 17:19:01,593- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 17:19:04,960- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 17:19:27,126- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 17:19:32,284- OIPA_Project: Quote created successfully
+23/Jul/2022 17:19:42,441- OIPA_Project: Proceeded to apply
+23/Jul/2022 17:19:52,630- OIPA_Project: Proceeded to eapp
+23/Jul/2022 17:20:29,711- OIPA_Project: Cover section verified successfully
+23/Jul/2022 17:21:52,298- OIPA_Project: Insured Section not verified
+23/Jul/2022 17:23:51,378- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 17:23:57,882- OIPA_Project: SIT URL Launched
+23/Jul/2022 17:24:13,168- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 17:24:13,385- OIPA_Project: Password Entered Successfully
+23/Jul/2022 17:24:13,560- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 17:24:38,769- OIPA_Project: Logged in but Home page not loaded (OR) Title is mismatched
+23/Jul/2022 17:27:52,599- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 17:27:58,187- OIPA_Project: SIT URL Launched
+23/Jul/2022 17:28:13,260- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 17:28:13,322- OIPA_Project: Password Entered Successfully
+23/Jul/2022 17:28:13,374- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 17:28:38,664- OIPA_Project: Logged in but Home page not loaded (OR) Title is mismatched
+23/Jul/2022 17:32:43,788- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 17:32:50,956- OIPA_Project: SIT URL Launched
+23/Jul/2022 17:33:03,023- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 17:33:03,077- OIPA_Project: Password Entered Successfully
+23/Jul/2022 17:33:03,121- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 17:33:23,331- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 17:33:30,936- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 17:33:41,005- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 17:33:41,065- OIPA_Project: LastName entered Successfully
+23/Jul/2022 17:33:41,122- OIPA_Project: Gender selected Successfully
+23/Jul/2022 17:33:41,170- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 17:33:46,284- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 17:33:46,483- OIPA_Project: state selected Successfully
+23/Jul/2022 17:33:46,846- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 17:33:55,930- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 17:33:58,091- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 17:34:03,231- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 17:34:11,379- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 17:34:21,437- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 17:34:26,514- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 17:34:26,637- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 17:34:31,708- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 17:34:34,867- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 17:34:56,922- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 17:35:01,982- OIPA_Project: Quote created successfully
+23/Jul/2022 17:35:12,035- OIPA_Project: Proceeded to apply
+23/Jul/2022 17:35:22,095- OIPA_Project: Proceeded to eapp
+23/Jul/2022 17:35:58,076- OIPA_Project: Cover section verified successfully
+23/Jul/2022 17:37:18,545- OIPA_Project: Insured Section not verified
+23/Jul/2022 18:00:55,806- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 18:01:04,010- OIPA_Project: SIT URL Launched
+23/Jul/2022 18:01:16,142- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 18:01:16,252- OIPA_Project: Password Entered Successfully
+23/Jul/2022 18:01:16,355- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 18:01:36,704- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 18:01:44,373- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 18:01:54,458- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 18:01:54,515- OIPA_Project: LastName entered Successfully
+23/Jul/2022 18:01:54,563- OIPA_Project: Gender selected Successfully
+23/Jul/2022 18:01:54,610- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 18:01:59,727- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 18:01:59,925- OIPA_Project: state selected Successfully
+23/Jul/2022 18:02:00,191- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 18:02:09,269- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 18:02:11,418- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 18:02:16,621- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 18:02:24,746- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 18:02:34,801- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 18:02:39,877- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 18:02:40,004- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 18:02:45,069- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 18:02:48,209- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 18:03:10,270- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 18:03:15,315- OIPA_Project: Quote created successfully
+23/Jul/2022 18:03:25,371- OIPA_Project: Proceeded to apply
+23/Jul/2022 18:03:35,435- OIPA_Project: Proceeded to eapp
+23/Jul/2022 18:04:11,442- OIPA_Project: Cover section verified successfully
+23/Jul/2022 18:05:26,540- OIPA_Project: Insured Section not verified
+23/Jul/2022 18:17:39,817- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 18:17:45,741- OIPA_Project: SIT URL Launched
+23/Jul/2022 18:17:57,820- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 18:17:57,871- OIPA_Project: Password Entered Successfully
+23/Jul/2022 18:17:57,915- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 18:18:18,121- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 18:18:25,874- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 18:18:35,953- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 18:18:36,012- OIPA_Project: LastName entered Successfully
+23/Jul/2022 18:18:36,072- OIPA_Project: Gender selected Successfully
+23/Jul/2022 18:18:36,124- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 18:18:41,247- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 18:18:41,456- OIPA_Project: state selected Successfully
+23/Jul/2022 18:18:41,850- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 18:18:50,941- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 18:18:53,087- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 18:18:58,209- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 18:19:06,341- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 18:19:16,391- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 18:19:21,455- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 18:19:21,567- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 18:19:26,639- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 18:19:29,790- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 18:19:51,855- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 18:19:56,909- OIPA_Project: Quote created successfully
+23/Jul/2022 18:20:06,951- OIPA_Project: Proceeded to apply
+23/Jul/2022 18:20:17,008- OIPA_Project: Proceeded to eapp
+23/Jul/2022 18:20:53,062- OIPA_Project: Cover section verified successfully
+23/Jul/2022 18:22:09,136- OIPA_Project: Insured Section not verified
+23/Jul/2022 19:14:58,086- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 19:15:04,975- OIPA_Project: SIT URL Launched
+23/Jul/2022 19:15:17,133- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 19:15:17,259- OIPA_Project: Password Entered Successfully
+23/Jul/2022 19:15:17,374- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 19:15:37,699- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 19:15:45,348- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 19:15:55,467- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 19:15:55,580- OIPA_Project: LastName entered Successfully
+23/Jul/2022 19:15:55,693- OIPA_Project: Gender selected Successfully
+23/Jul/2022 19:15:55,800- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 19:16:01,047- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 19:16:01,609- OIPA_Project: state selected Successfully
+23/Jul/2022 19:16:02,670- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 19:16:11,785- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 19:16:14,094- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 19:16:19,376- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 19:16:27,618- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 19:16:37,665- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 19:16:42,745- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 19:16:42,894- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 19:16:47,960- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 19:16:51,277- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 19:17:13,371- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 19:17:18,466- OIPA_Project: Quote created successfully
+23/Jul/2022 19:17:28,617- OIPA_Project: Proceeded to apply
+23/Jul/2022 19:17:38,716- OIPA_Project: Proceeded to eapp
+23/Jul/2022 19:18:14,661- OIPA_Project: Cover section verified successfully
+23/Jul/2022 19:29:23,004- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 19:29:29,900- OIPA_Project: SIT URL Launched
+23/Jul/2022 19:29:41,975- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 19:29:42,022- OIPA_Project: Password Entered Successfully
+23/Jul/2022 19:29:42,060- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 19:30:02,257- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 19:30:12,465- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 19:30:22,531- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 19:30:22,582- OIPA_Project: LastName entered Successfully
+23/Jul/2022 19:30:22,627- OIPA_Project: Gender selected Successfully
+23/Jul/2022 19:30:22,676- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 19:30:27,777- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 19:30:27,976- OIPA_Project: state selected Successfully
+23/Jul/2022 19:30:28,252- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 19:30:37,361- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 19:30:39,501- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 19:30:44,630- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 19:30:52,764- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 19:31:02,817- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 19:31:07,882- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 19:31:07,999- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 19:31:13,054- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 19:31:16,204- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 19:31:38,261- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 19:31:43,310- OIPA_Project: Quote created successfully
+23/Jul/2022 19:31:53,354- OIPA_Project: Proceeded to apply
+23/Jul/2022 19:32:03,405- OIPA_Project: Proceeded to eapp
+23/Jul/2022 19:32:40,439- OIPA_Project: Cover section verified successfully
+23/Jul/2022 19:33:56,921- OIPA_Project: Insured Section not verified
+23/Jul/2022 19:55:02,366- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 19:55:08,165- OIPA_Project: SIT URL Launched
+23/Jul/2022 19:55:23,236- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 19:55:23,294- OIPA_Project: Password Entered Successfully
+23/Jul/2022 19:55:23,338- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 19:55:48,594- OIPA_Project: Logged in but Home page not loaded (OR) Title is mismatched
+23/Jul/2022 20:05:33,190- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 20:21:16,052- OIPA_Project: Testing in Chrome browser
+23/Jul/2022 20:21:24,203- OIPA_Project: SIT URL Launched
+23/Jul/2022 20:21:36,265- OIPA_Project: UserName Entered Successfully
+23/Jul/2022 20:21:36,312- OIPA_Project: Password Entered Successfully
+23/Jul/2022 20:21:36,350- OIPA_Project: Logged into IE - SIT Successfully
+23/Jul/2022 20:21:56,555- OIPA_Project: New Quote clicked Successfully
+23/Jul/2022 20:22:04,166- OIPA_Project: Adviser selected Successfully
+23/Jul/2022 20:22:14,256- OIPA_Project: FirstName entered Successfully
+23/Jul/2022 20:22:14,307- OIPA_Project: LastName entered Successfully
+23/Jul/2022 20:22:14,351- OIPA_Project: Gender selected Successfully
+23/Jul/2022 20:22:14,392- OIPA_Project: Smokerstatus selected Successfully
+23/Jul/2022 20:22:19,498- OIPA_Project: Birthdate entered Successfully
+23/Jul/2022 20:22:19,686- OIPA_Project: state selected Successfully
+23/Jul/2022 20:22:19,943- OIPA_Project: Occupation selected Successfully
+23/Jul/2022 20:22:29,017- OIPA_Project: Annual Income entered Successfully
+23/Jul/2022 20:22:31,155- OIPA_Project: purpose of app selected Successfully
+23/Jul/2022 20:22:36,271- OIPA_Project: Non Super Ownership selected Successfully
+23/Jul/2022 20:22:44,388- OIPA_Project: Employment status selected Successfully
+23/Jul/2022 20:22:54,447- OIPA_Project: Life cover selected Successfully
+23/Jul/2022 20:22:59,512- OIPA_Project: Life cover Benefit amount entered Successfully
+23/Jul/2022 20:22:59,622- OIPA_Project: Life cover Premium type selected Successfully
+23/Jul/2022 20:23:04,685- OIPA_Project: Life cover selected as Outside Super Successfully
+23/Jul/2022 20:23:07,821- OIPA_Project: Life cover purpose selected  Successfully
+23/Jul/2022 20:23:29,869- OIPA_Project: Premium calculated Successfully
+23/Jul/2022 20:23:34,921- OIPA_Project: Quote created successfully
+23/Jul/2022 20:23:44,975- OIPA_Project: Proceeded to apply
+23/Jul/2022 20:23:55,033- OIPA_Project: Proceeded to eapp
+23/Jul/2022 20:24:32,002- OIPA_Project: Cover section verified successfully
+23/Jul/2022 20:25:46,689- OIPA_Project: Insured Section not verified

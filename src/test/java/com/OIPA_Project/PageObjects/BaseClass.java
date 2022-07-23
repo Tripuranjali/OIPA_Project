@@ -4,13 +4,15 @@ package com.OIPA_Project.PageObjects;
 
 import java.io.File;
 import java.io.IOException;
+//import java.text.SimpleDateFormat;
+//import java.util.Date;
 
 //import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.JavascriptExecutor;
+//import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -72,18 +74,14 @@ public class BaseClass {
 		driver.manage().window().minimize();
 	}
 	
-	public void captureScreen(WebDriver driver, String tname) throws IOException {
+	public static String captureScreen(WebDriver driver, String tname) throws IOException {
+		
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);
-		File target=new File(System.getProperty("user.dir")+ "/Screenshots/"+ tname+ ".png");
-		FileUtils.copyFile(source, target);
+		String destination =System.getProperty("user.dir")+"/Screenshots/"+tname+".png";
+		File Finaldestination = new File(destination);
+		FileUtils.copyFile(source, Finaldestination);
+		return destination;
 	}
-//	public static String capture(WebDriver driver, String screenShotName) throws Exception
-//    {
-//        Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
-//        String dest = System.getProperty("user.dir") + "/Screenshots/" + screenShotName + ".png";
-//        ImageIO.write(screenshot.getImage(),"PNG",new File(dest));
-//        return dest;
-//        System.out.println("Screenshots taken for failure testcases:");
-//    }
+
 }

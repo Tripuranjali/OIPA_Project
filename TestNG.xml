@@ -13,7 +13,7 @@
 			<!--<class name="com.OIPA_Project.TestCases.TC_LoginTest_01"/>-->
 			<!--<class name="com.OIPA_Project.TestCases.TC_LoginTestDDT_02"/>-->
 			<class name="com.OIPA_Project.TestCases.TC_NonSuperEapp_03"/>		
-		</classes>		
+		</classes>
 	</test>
 	
 </suite>

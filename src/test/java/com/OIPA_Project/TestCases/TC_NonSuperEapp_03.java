@@ -1,10 +1,11 @@
 package com.OIPA_Project.TestCases;
 
-
-
-import java.io.IOException;
-
 import org.testng.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import org.openqa.selenium.support.Color;
+
 import org.testng.annotations.Test;
 
 import com.OIPA_Project.PageObjects.BaseClass;
@@ -14,7 +15,7 @@ import com.OIPA_Project.PageObjects.NonSuperEappPage;
 public class TC_NonSuperEapp_03  extends BaseClass {	
 	
 	@Test
-	public void NonSuperEapp() throws InterruptedException, IOException {
+	public void NonSuperEapp() throws  Exception {
 		
 		logger.info("SIT URL Launched");
 		Thread.sleep(12000);
@@ -43,10 +44,10 @@ public class TC_NonSuperEapp_03  extends BaseClass {
 		logger.info("Adviser selected Successfully");
 		Thread.sleep(10000);
 		
-		Ns.setfirstname("Smoke Automation");
+		Ns.setfirstname("ABCD");
 		logger.info("FirstName entered Successfully");
 		
-		Ns.setlasttname("Testcase two");
+		Ns.setlasttname("EFGH");
 		logger.info("LastName entered Successfully");
 		
 		Ns.clickgender();
@@ -146,31 +147,97 @@ public class TC_NonSuperEapp_03  extends BaseClass {
 		Ns.twosave();
 		Thread.sleep(15000);
 		
-		Ns.onenext();
-		Thread.sleep(25000);
+		Ns.onenext();		
+		logger.info("Cover section verified successfully");
+		Thread.sleep(15000);
 		
-		logger.info("------------------------------------------------------------------------------------------------");
+		Ns.Institleset();
+		Ns.selecttitle();
+		Thread.sleep(10000);
 		
+		Ns.Insaddset("150 KAHIBAH RD, CHARLESTOWN NSW 2290");
+		Thread.sleep(15000);
 		
+		Ns.Insmailingaddset();
+		Thread.sleep(12000);
 		
+		Ns.Insnumoneset("7989787119");		
+		Ns.Insnumtwoset("7989787119");
+		Ns.Insnumthreeset("7989787119");
 		
+		Ns.Insemailset("A.R@gmail.com");
+		Thread.sleep(10000);
 		
-		
-		
-		
-		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		Ns.twonext();
+		Thread.sleep(10000);	
 
-
+		
+		
+		WebElement Insgreen=driver.findElement(By.xpath("//*[@id='question-page-pageInsured']/li/a/span[1]"));
+		WebElement checkfinalisesubmit=driver.findElement(By.xpath("//*[@id='question-page-completed']/li/a/span[1]"));
+		String s=Insgreen.getCssValue("color");
+		String hexcol = Color.fromString(s).asHex();
+		if(hexcol.equals("#48cc06")) {
+			Assert.assertTrue(true);
+			logger.info("Insured Section verified Successfully");
+			}
+		else{
+			checkfinalisesubmit.click();
+			Thread.sleep(5000);
+			captureScreen(driver,"NonSuperEapp");
+			logger.info("Insured Section not verified");
+			Assert.assertTrue(false);
+			}
+			
+				
+			
+		
+	}				
+				
+	
+		
+		
 }
+
+
+		
+		
+		
+		
+		
+		
+	
+
+		
+	
+		
+		
+
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
