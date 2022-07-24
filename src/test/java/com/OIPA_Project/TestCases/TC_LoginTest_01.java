@@ -2,18 +2,22 @@ package com.OIPA_Project.TestCases;
 
 
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.OIPA_Project.PageObjects.BaseClass;
 import com.OIPA_Project.PageObjects.LoginPage;
+import com.aventstack.extentreports.Status;
 
-public class TC_LoginTest_01 extends BaseClass {
+public class TC_LoginTest_01 extends BaseClass  {
 	
 	@Test
-	public void logintest() throws Exception {
+	public void ClearViewLogoVerification() throws Exception {
 		
 		logger.info("SIT URL Launched");
+		
+	
 		Thread.sleep(15000);
 		
 		LoginPage lp = new LoginPage(driver);
@@ -30,14 +34,14 @@ public class TC_LoginTest_01 extends BaseClass {
 		
 		driver.manage().window().maximize();
 		
-		if (driver.getTitle().equals("InsuranceElements12")) {
-			
+		if (driver.findElement(By.xpath("//*[@id='logo']/span/img")).isDisplayed()) {
+			captureScreen(driver, "ClearViewLogoVerification");
 			Assert.assertTrue(true);
 			logger.info("Home Page loaded Successfully");
 			
 		}
 		else {
-			captureScreen(driver, "logintest");
+			captureScreen(driver, "ClearViewLogoVerification");
 			logger.info("Logged in but Home page not loaded (OR) Title is mismatched");
 			Assert.assertTrue(false);
 					

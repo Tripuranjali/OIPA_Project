@@ -1,5 +1,4 @@
 package com.OIPA_Project.Utilities;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -11,25 +10,35 @@ import org.testng.TestListenerAdapter;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
+
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+
 
 public class Reporting extends TestListenerAdapter {
 	
-	public ExtentHtmlReporter htmlreporter;
+	public ExtentSparkReporter htmlreporter;
 	public ExtentReports extent;
 	public ExtentTest logger;
+	
 	
 	
 	public void onStart(ITestContext testContext) {
 		
 		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		String repName = "Test-Report-"+timestamp+".html";
-		htmlreporter = new ExtentHtmlReporter(System.getProperty("user.dir")+ "/TestExecutionReports/"+ repName);
-		htmlreporter.loadXMLConfig(System.getProperty("user.dir")+"/extent-config.xml");
+		htmlreporter = new ExtentSparkReporter(System.getProperty("user.dir")+ "/TestExecutionReports/"+ repName);
+		try {
+			htmlreporter.loadXMLConfig(System.getProperty("user.dir")+"/extent-config.xml");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		extent = new ExtentReports();
 		
@@ -50,28 +59,33 @@ public class Reporting extends TestListenerAdapter {
 	public void onTestSuccess(ITestResult tr) {
 		
 		logger = extent.createTest(tr.getName());
-		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN));		
-	}
-	
-	public void onTestFailure(ITestResult tr)  {
-		
-		logger = extent.createTest(tr.getName());		
-		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED));
-		logger.log(Status.FAIL, tr.getThrowable());
 		String screenshotPath = System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
+		
+		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN));
 		
 		File f = new File(screenshotPath);
 		
 		if(f.exists())
 		{
-		try {
-			logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotPath));
-			}
-		catch (IOException e)
-				{
-				e.printStackTrace();
-				}
+		logger.pass(MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());		
+		}
+
+	}
+	
+	public void onTestFailure(ITestResult tr)  {
 		
+		logger = extent.createTest(tr.getName());
+		String screenshotPath = System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
+		
+		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED));
+		logger.log(Status.FAIL, tr.getThrowable());
+		
+		
+		File f = new File(screenshotPath);
+		
+		if(f.exists())
+		{
+		logger.fail(MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());		
 		}
 
 	}

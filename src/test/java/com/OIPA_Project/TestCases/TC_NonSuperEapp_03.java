@@ -15,7 +15,7 @@ import com.OIPA_Project.PageObjects.NonSuperEappPage;
 public class TC_NonSuperEapp_03  extends BaseClass {	
 	
 	@Test
-	public void NonSuperEapp() throws  Exception {
+	public void NonSuperEappSubmission() throws  Exception {
 		
 		logger.info("SIT URL Launched");
 		Thread.sleep(12000);
@@ -178,13 +178,14 @@ public class TC_NonSuperEapp_03  extends BaseClass {
 		String s=Insgreen.getCssValue("color");
 		String hexcol = Color.fromString(s).asHex();
 		if(hexcol.equals("#48cc06")) {
+			captureScreen(driver,"NonSuperEappSubmission");
 			Assert.assertTrue(true);
 			logger.info("Insured Section verified Successfully");
 			}
 		else{
 			checkfinalisesubmit.click();
 			Thread.sleep(5000);
-			captureScreen(driver,"NonSuperEapp");
+			captureScreen(driver,"NonSuperEappSubmission");
 			logger.info("Insured Section not verified");
 			Assert.assertTrue(false);
 			}

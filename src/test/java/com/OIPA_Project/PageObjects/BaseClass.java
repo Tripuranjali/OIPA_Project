@@ -7,6 +7,7 @@ import java.io.IOException;
 //import java.text.SimpleDateFormat;
 //import java.util.Date;
 
+
 //import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
@@ -19,11 +20,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.testng.annotations.AfterClass;
+
+
+
 import org.testng.annotations.BeforeClass;
+
 import org.testng.annotations.Parameters;
 
+
 import com.OIPA_Project.Utilities.ReadConfig;
+
 
 //import ru.yandex.qatools.ashot.AShot;
 //import ru.yandex.qatools.ashot.Screenshot;
@@ -38,9 +46,11 @@ public class BaseClass {
 	public String PassWord = readconfig.getPassword();
 	public static WebDriver driver;
 	public static Logger logger;
-	
+
 	
 	@Parameters("browser")
+	
+	
 	
 	@BeforeClass
 	public void setup(String br) {
@@ -67,6 +77,8 @@ public class BaseClass {
 		driver.get(SITURL);
 		
 	}
+	
+	
 	
 	
 	@AfterClass

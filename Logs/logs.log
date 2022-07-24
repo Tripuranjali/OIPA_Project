@@ -1819,3 +1819,108 @@
 23/Jul/2022 20:23:55,033- OIPA_Project: Proceeded to eapp
 23/Jul/2022 20:24:32,002- OIPA_Project: Cover section verified successfully
 23/Jul/2022 20:25:46,689- OIPA_Project: Insured Section not verified
+24/Jul/2022 11:50:34,353- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 11:50:42,637- OIPA_Project: SIT URL Launched
+24/Jul/2022 11:50:57,727- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 11:50:57,803- OIPA_Project: Password Entered Successfully
+24/Jul/2022 11:50:57,864- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 11:51:23,002- OIPA_Project: Home Page loaded Successfully
+24/Jul/2022 11:56:01,743- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 11:56:07,840- OIPA_Project: SIT URL Launched
+24/Jul/2022 11:56:22,914- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 11:56:22,964- OIPA_Project: Password Entered Successfully
+24/Jul/2022 11:56:23,008- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 11:56:48,360- OIPA_Project: Logged in but Home page not loaded (OR) Title is mismatched
+24/Jul/2022 13:57:08,096- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 13:57:13,888- OIPA_Project: SIT URL Launched
+24/Jul/2022 13:59:09,805- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 13:59:15,119- OIPA_Project: SIT URL Launched
+24/Jul/2022 14:27:12,575- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 14:27:19,293- OIPA_Project: SIT URL Launched
+24/Jul/2022 14:27:34,357- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 14:27:34,409- OIPA_Project: Password Entered Successfully
+24/Jul/2022 14:27:34,447- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 14:27:59,758- OIPA_Project: Logged in but Home page not loaded (OR) Title is mismatched
+24/Jul/2022 14:37:20,497- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 14:37:27,080- OIPA_Project: SIT URL Launched
+24/Jul/2022 14:37:42,330- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 14:37:42,542- OIPA_Project: Password Entered Successfully
+24/Jul/2022 14:37:42,710- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 14:38:08,209- OIPA_Project: Logged in but Home page not loaded (OR) Title is mismatched
+24/Jul/2022 14:42:21,570- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 14:42:27,745- OIPA_Project: SIT URL Launched
+24/Jul/2022 14:42:42,904- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 14:42:43,053- OIPA_Project: Password Entered Successfully
+24/Jul/2022 14:42:43,153- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 14:43:08,731- OIPA_Project: Logged in but Home page not loaded (OR) Title is mismatched
+24/Jul/2022 14:46:32,458- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 14:46:37,814- OIPA_Project: SIT URL Launched
+24/Jul/2022 14:46:53,102- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 14:46:53,260- OIPA_Project: Password Entered Successfully
+24/Jul/2022 14:46:53,384- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 14:47:18,999- OIPA_Project: Logged in but Home page not loaded (OR) Title is mismatched
+24/Jul/2022 14:55:40,963- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 14:55:47,214- OIPA_Project: SIT URL Launched
+24/Jul/2022 14:56:02,330- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 14:56:02,439- OIPA_Project: Password Entered Successfully
+24/Jul/2022 14:56:02,518- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 14:56:27,981- OIPA_Project: Logged in but Home page not loaded (OR) Title is mismatched
+24/Jul/2022 15:07:31,521- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 15:07:38,982- OIPA_Project: SIT URL Launched
+24/Jul/2022 15:07:54,168- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 15:07:54,359- OIPA_Project: Password Entered Successfully
+24/Jul/2022 15:07:54,539- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 15:08:20,040- OIPA_Project: Home Page loaded Successfully
+24/Jul/2022 15:11:41,045- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 15:11:46,172- OIPA_Project: SIT URL Launched
+24/Jul/2022 15:12:01,342- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 15:12:01,473- OIPA_Project: Password Entered Successfully
+24/Jul/2022 15:12:01,592- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 15:12:27,136- OIPA_Project: Home Page loaded Successfully
+24/Jul/2022 15:13:21,868- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 15:13:27,943- OIPA_Project: SIT URL Launched
+24/Jul/2022 15:13:43,213- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 15:13:43,425- OIPA_Project: Password Entered Successfully
+24/Jul/2022 15:13:43,603- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 15:14:09,085- OIPA_Project: Home Page loaded Successfully
+24/Jul/2022 15:22:52,930- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 15:22:59,299- OIPA_Project: SIT URL Launched
+24/Jul/2022 15:23:14,565- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 15:23:14,804- OIPA_Project: Password Entered Successfully
+24/Jul/2022 15:23:15,000- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 15:23:40,694- OIPA_Project: Home Page loaded Successfully
+24/Jul/2022 15:34:42,300- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 15:34:48,620- OIPA_Project: SIT URL Launched
+24/Jul/2022 15:35:03,898- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 15:35:04,141- OIPA_Project: Password Entered Successfully
+24/Jul/2022 15:35:04,327- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 15:35:29,961- OIPA_Project: Home Page loaded Successfully
+24/Jul/2022 15:35:31,596- OIPA_Project: Testing in Chrome browser
+24/Jul/2022 15:35:34,237- OIPA_Project: SIT URL Launched
+24/Jul/2022 15:35:46,327- OIPA_Project: UserName Entered Successfully
+24/Jul/2022 15:35:46,425- OIPA_Project: Password Entered Successfully
+24/Jul/2022 15:35:46,491- OIPA_Project: Logged into IE - SIT Successfully
+24/Jul/2022 15:36:06,745- OIPA_Project: New Quote clicked Successfully
+24/Jul/2022 15:36:14,647- OIPA_Project: Adviser selected Successfully
+24/Jul/2022 15:36:24,785- OIPA_Project: FirstName entered Successfully
+24/Jul/2022 15:36:24,918- OIPA_Project: LastName entered Successfully
+24/Jul/2022 15:36:25,054- OIPA_Project: Gender selected Successfully
+24/Jul/2022 15:36:25,178- OIPA_Project: Smokerstatus selected Successfully
+24/Jul/2022 15:36:30,382- OIPA_Project: Birthdate entered Successfully
+24/Jul/2022 15:36:30,828- OIPA_Project: state selected Successfully
+24/Jul/2022 15:36:31,691- OIPA_Project: Occupation selected Successfully
+24/Jul/2022 15:36:40,942- OIPA_Project: Annual Income entered Successfully
+24/Jul/2022 15:36:43,311- OIPA_Project: purpose of app selected Successfully
+24/Jul/2022 15:36:48,841- OIPA_Project: Non Super Ownership selected Successfully
+24/Jul/2022 15:36:57,224- OIPA_Project: Employment status selected Successfully
+24/Jul/2022 15:37:07,367- OIPA_Project: Life cover selected Successfully
+24/Jul/2022 15:37:12,525- OIPA_Project: Life cover Benefit amount entered Successfully
+24/Jul/2022 15:37:12,879- OIPA_Project: Life cover Premium type selected Successfully
+24/Jul/2022 15:37:18,009- OIPA_Project: Life cover selected as Outside Super Successfully
+24/Jul/2022 15:37:21,413- OIPA_Project: Life cover purpose selected  Successfully
+24/Jul/2022 15:37:43,460- OIPA_Project: Premium calculated Successfully
+24/Jul/2022 15:37:48,612- OIPA_Project: Quote created successfully
+24/Jul/2022 15:37:58,759- OIPA_Project: Proceeded to apply
+24/Jul/2022 15:38:08,939- OIPA_Project: Proceeded to eapp
+24/Jul/2022 15:38:45,608- OIPA_Project: Cover section verified successfully
+24/Jul/2022 15:40:09,467- OIPA_Project: Insured Section verified Successfully
