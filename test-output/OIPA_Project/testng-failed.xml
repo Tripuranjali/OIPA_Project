@@ -7,13 +7,13 @@
   <test thread-count="5" name="SIT Smoke Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="com.OIPA_Project.TestCases.TC_LoginTest_01">
+      <class name="com.OIPA_Project.TestCases.TC_NonSuperEapp_03">
         <methods>
-          <include name="logintest"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="NonSuperEappSubmission"/>
         </methods>
-      </class> <!-- com.OIPA_Project.TestCases.TC_LoginTest_01 -->
+      </class> <!-- com.OIPA_Project.TestCases.TC_NonSuperEapp_03 -->
     </classes>
   </test> <!-- SIT Smoke Test(failed) -->
 </suite> <!-- Failed suite [OIPA_Project] -->

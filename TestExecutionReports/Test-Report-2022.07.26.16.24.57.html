@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">SIT Smoke Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 24, 2022 02:46:29 pm</span></a>
+<a href="#"><span class="badge badge-primary">Jul 26, 2022 04:24:57 pm</span></a>
 </li>
 </ul>
 </div>
@@ -84,9 +84,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">logintest</p>
+            <p class="name">OIPAScreenscheck</p>
             <p class="text-sm">
-              <span>2:47:19 pm</span> / <span>00:00:00:029</span>
+              <span>4:26:44 pm</span> / <span>00:00:00:006</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -94,10 +94,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">logintest</h5>
-<span class='badge badge-success'>07.24.2022 2:47:19 pm</span>
-<span class='badge badge-danger'>07.24.2022 2:47:19 pm</span>
-<span class='badge badge-default'>00:00:00:029</span>
+<h5 class="test-status text-fail">OIPAScreenscheck</h5>
+<span class='badge badge-success'>07.26.2022 4:26:44 pm</span>
+<span class='badge badge-danger'>07.26.2022 4:26:44 pm</span>
+<span class='badge badge-default'>00:00:00:006</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -109,21 +109,41 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>2:47:19 pm</td>
+        <td>4:26:44 pm</td>
         <td>
-          <span class='badge white-text red'>logintest</span>
+          <span class='badge white-text red'>OIPAScreenscheck</span>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>2:47:19 pm</td>
+        <td>4:26:44 pm</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at com.OIPA_Project.TestCases.TC_LoginTest_01.logintest(TC_LoginTest_01.java:45)
+          <textarea readonly class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'TACHALLA20', ip: '192.168.43.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ac23880d3a1fda552e489e04f8907e3, getElementText {id=5c5d73f1-0b77-40c8-a509-5a4cc109abb7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\TAchalla\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54589/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9ac23880d3a1fda552e489e04f8907e3)] -> xpath: //ul[@id='oj-listbox-results-Menu_Search']/li/div]
+Session ID: 9ac23880d3a1fda552e489e04f8907e3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
+	at com.OIPA_Project.PageObjects.OIPAPage.selectapplication(OIPAPage.java:118)
+	at com.OIPA_Project.TestCases.TC_OIPAScreenscheck_04.OIPAScreenscheck(TC_OIPAScreenscheck_04.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -156,13 +176,6 @@
           
         </td>
       </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>2:47:19 pm</td>
-        <td>
-          Failure testcase screenshotcom.aventstack.extentreports.model.ScreenCapture@53cf9c99
-        </td>
-      </tr>
   </tbody>
 </table>
 </div>
@@ -190,12 +203,12 @@
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">java.lang.AssertionError</p>
+<p class="name">org.openqa.selenium.StaleElementReferenceException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>java.lang.AssertionError</h4>
+<h4>org.openqa.selenium.StaleElementReferenceException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -209,9 +222,9 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>14:47:19 pm</td>
+<td>16:26:44 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>logintest</a>
+<a href="#" class="linked" test-id='1' id='1'>OIPAScreenscheck</a>
 </td>
 </tr>
 </tbody>
@@ -231,13 +244,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 24, 2022 02:46:29 pm</h3>
+<h3>Jul 26, 2022 04:24:57 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 24, 2022 02:47:19 pm</h3>
+<h3>Jul 26, 2022 04:26:45 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -290,7 +303,7 @@
 <div class="card-footer">
 <div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='100%'><b>3</b> events failed,
+<small data-tooltip='100%'><b>2</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -307,7 +320,7 @@
 </div></div>
 <script>
 var timeline = {
-"logintest":0.029
+"OIPAScreenscheck":0.006
 };
 </script>
 <div class="row">
@@ -368,7 +381,7 @@ skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 passEvents: 0,
-failEvents: 3,
+failEvents: 2,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0

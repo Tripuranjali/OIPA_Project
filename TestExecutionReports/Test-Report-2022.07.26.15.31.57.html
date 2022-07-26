@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">SIT Smoke Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 24, 2022 02:42:17 pm</span></a>
+<a href="#"><span class="badge badge-primary">Jul 26, 2022 03:31:57 pm</span></a>
 </li>
 </ul>
 </div>
@@ -84,9 +84,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">logintest</p>
+            <p class="name">OIPAScreenscheck</p>
             <p class="text-sm">
-              <span>2:43:08 pm</span> / <span>00:00:00:037</span>
+              <span>3:32:27 pm</span> / <span>00:00:00:012</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -94,10 +94,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">logintest</h5>
-<span class='badge badge-success'>07.24.2022 2:43:08 pm</span>
-<span class='badge badge-danger'>07.24.2022 2:43:08 pm</span>
-<span class='badge badge-default'>00:00:00:037</span>
+<h5 class="test-status text-fail">OIPAScreenscheck</h5>
+<span class='badge badge-success'>07.26.2022 3:32:27 pm</span>
+<span class='badge badge-danger'>07.26.2022 3:32:27 pm</span>
+<span class='badge badge-default'>00:00:00:012</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -109,21 +109,38 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>2:43:08 pm</td>
+        <td>3:32:27 pm</td>
         <td>
-          <span class='badge white-text red'>logintest</span>
+          <span class='badge white-text red'>OIPAScreenscheck</span>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>2:43:08 pm</td>
+        <td>3:32:27 pm</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at com.OIPA_Project.TestCases.TC_LoginTest_01.logintest(TC_LoginTest_01.java:45)
+          <textarea readonly class="code-block">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'TACHALLA20', ip: '192.168.29.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2af74d1cd0e80fb57f8a092285af684, get {url=https://10.42.2.72/PASJava/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\TAchalla\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55198/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f2af74d1cd0e80fb57f8a092285af684
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+	at com.OIPA_Project.TestCases.TC_OIPAScreenscheck_04.OIPAScreenscheck(TC_OIPAScreenscheck_04.java:12)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -156,13 +173,6 @@
           
         </td>
       </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>2:43:08 pm</td>
-        <td>
-          Failure testcase screenshotcom.aventstack.extentreports.model.ScreenCapture@53cf9c99
-        </td>
-      </tr>
   </tbody>
 </table>
 </div>
@@ -190,12 +200,12 @@
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">java.lang.AssertionError</p>
+<p class="name">org.openqa.selenium.WebDriverException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>java.lang.AssertionError</h4>
+<h4>org.openqa.selenium.WebDriverException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -209,9 +219,9 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>14:43:08 pm</td>
+<td>15:32:27 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>logintest</a>
+<a href="#" class="linked" test-id='1' id='1'>OIPAScreenscheck</a>
 </td>
 </tr>
 </tbody>
@@ -231,13 +241,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 24, 2022 02:42:17 pm</h3>
+<h3>Jul 26, 2022 03:31:57 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 24, 2022 02:43:09 pm</h3>
+<h3>Jul 26, 2022 03:32:31 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -290,7 +300,7 @@
 <div class="card-footer">
 <div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='100%'><b>3</b> events failed,
+<small data-tooltip='100%'><b>2</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -307,7 +317,7 @@
 </div></div>
 <script>
 var timeline = {
-"logintest":0.037
+"OIPAScreenscheck":0.012
 };
 </script>
 <div class="row">
@@ -368,7 +378,7 @@ skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 passEvents: 0,
-failEvents: 3,
+failEvents: 2,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0

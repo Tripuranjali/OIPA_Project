@@ -3,22 +3,27 @@ package com.OIPA_Project.TestCases;
 
 
 import org.openqa.selenium.By;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.OIPA_Project.PageObjects.BaseClass;
 import com.OIPA_Project.PageObjects.LoginPage;
-import com.aventstack.extentreports.Status;
+
 
 public class TC_LoginTest_01 extends BaseClass  {
 	
 	@Test
 	public void ClearViewLogoVerification() throws Exception {
 		
+		
+		
+		
 		logger.info("SIT URL Launched");
 		
 	
 		Thread.sleep(15000);
+		
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.setusername(UserName);

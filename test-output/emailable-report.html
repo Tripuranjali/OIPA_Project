@@ -9,11 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">OIPA_Project</th></tr>
-<tr><td><a href="#t0">SIT Smoke Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">331,237</td><td></td><td></td></tr>
+<tr><td><a href="#t0">SIT Smoke Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">550,316</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OIPA_Project</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SIT Smoke Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.OIPA_Project.TestCases.TC_LoginTest_01</td><td><a href="#m0">ClearViewLogoVerification</a></td><td rowspan="1">1658657088609</td><td rowspan="1">41352</td></tr><tr class="passedodd"><td rowspan="1">com.OIPA_Project.TestCases.TC_NonSuperEapp_03</td><td><a href="#m1">NonSuperEappSubmission</a></td><td rowspan="1">1658657134235</td><td rowspan="1">275233</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OIPA_Project</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SIT Smoke Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.OIPA_Project.TestCases.TC_NonSuperEapp_03</td><td><a href="#m0">NonSuperEappSubmission</a></td><td rowspan="1">1658836310950</td><td rowspan="1">542603</td></tr></tbody>
 </table>
-<h2>SIT Smoke Test</h2><h3 id="m0">com.OIPA_Project.TestCases.TC_LoginTest_01#ClearViewLogoVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.OIPA_Project.TestCases.TC_NonSuperEapp_03#NonSuperEappSubmission</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SIT Smoke Test</h2><h3 id="m0">com.OIPA_Project.TestCases.TC_NonSuperEapp_03#NonSuperEappSubmission</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;TACHALLA20&apos;, ip: &apos;192.168.43.75&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12e8b942d8e8c1f457ce22fef244d8a6, clickElement {id=d5332a55-bf52-4dac-b68c-a4bd063646ba}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\TAchalla\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64066}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64066/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (12e8b942d8e8c1f457ce22fef244d8a6)] -&gt; xpath: //*[@id=&apos;modal-yes-no-radio-button-no&apos;]]
+Session ID: 12e8b942d8e8c1f457ce22fef244d8a6
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at com.OIPA_Project.PageObjects.NonSuperEappPage.NoPdfrequired(NonSuperEappPage.java:660)
+	at com.OIPA_Project.TestCases.TC_NonSuperEapp_03.NonSuperEappSubmission(TC_NonSuperEapp_03.java:376)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

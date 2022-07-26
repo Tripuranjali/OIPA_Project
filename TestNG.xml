@@ -8,11 +8,15 @@
 	</listeners>
 	
 	<test name="SIT Smoke Test">
-		<parameter name="browser" value="Chrome" />
+	  <parameter name="browser" value="Chrome" />
 		<classes>
-			<class name="com.OIPA_Project.TestCases.TC_LoginTest_01"/>
+			<!--<class name="com.OIPA_Project.TestCases.TC_LoginTest_01"/>-->
 			<!--<class name="com.OIPA_Project.TestCases.TC_LoginTestDDT_02"/>-->
-			<class name="com.OIPA_Project.TestCases.TC_NonSuperEapp_03"/>		
+			<class name="com.OIPA_Project.TestCases.TC_NonSuperEapp_03"/>
+			<!--<class name="com.OIPA_Project.TestCases.TC_OIPAScreenscheck_04"/>-->
+			
+
+			
 		</classes>
 	</test>
 	

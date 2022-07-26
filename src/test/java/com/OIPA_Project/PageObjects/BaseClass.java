@@ -44,6 +44,9 @@ public class BaseClass {
 	public String SITURL = readconfig.getAppURL() ;
 	public String UserName = readconfig.getUserName();
 	public String PassWord = readconfig.getPassword();
+	public String OIPASITURL=readconfig.getOIPAUrl();
+	public String OIPAUsername=readconfig.getOipaUserName();
+	public String OIPAPassword=readconfig.getOipaPassWord();
 	public static WebDriver driver;
 	public static Logger logger;
 
@@ -74,7 +77,7 @@ public class BaseClass {
 			logger.info("Testing in Edge browser");
 		}
 		
-		driver.get(SITURL);
+//		driver.get(SITURL);
 		
 	}
 	
@@ -95,5 +98,7 @@ public class BaseClass {
 		FileUtils.copyFile(source, Finaldestination);
 		return destination;
 	}
+	
+	
 
 }

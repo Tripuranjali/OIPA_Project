@@ -1,35 +1,26 @@
 package com.OIPA_Project.PageObjects;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-//import java.time.LocalDate;
-//import java.time.format.DateTimeFormatter;
-import java.util.List;
-//import java.util.Random;
 
-import org.apache.commons.io.FileUtils;
+
+import java.util.List;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.junit.Assert;
 
-//import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.support.CacheLookup;
-import org.openqa.selenium.support.Color;
+
+
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-//import org.openqa.selenium.support.ui.Select;
+
 
 public class NonSuperEappPage extends BaseClass  {
 	
 	public WebDriver ldriver;
-	public Logger logger;
+
 	
 	
 	public NonSuperEappPage(WebDriver rdriver) {
@@ -181,33 +172,25 @@ public class NonSuperEappPage extends BaseClass  {
 	@CacheLookup
 	WebElement Insaddress;
 	
-	@FindBy(xpath="//*[@id='qtnAddressLine1_Templates_AskAddress_120_']")
-	@CacheLookup
-	WebElement Insaddress1;	
-	
-	@FindBy(xpath="//*[@id='qtnAddressCity_Templates_AskAddress_120_']")
-	@CacheLookup
-	WebElement suburb;
-	
-	@FindBy(xpath="//*[@id='qtnAddressZip_Templates_AskAddress_120_']")
-	@CacheLookup
-	WebElement postcode;
-	
 	@FindBy(xpath="//*[@id='qtnMailingAddressSameAsResidential_Templates_MailingAndResidentialAddresses_119_']")
 	@CacheLookup
 	WebElement Insmailingaddress;
+	
+	@FindBy(xpath="//*[@id='qtnPhoneNumber_Templates_AskPhone_125_']")
+	@CacheLookup
+	WebElement Insmobilehome;
+	
+	@FindBy(xpath="//*[@id='qtnPhoneNumber_Templates_AskPhone_126_']")
+	@CacheLookup
+	WebElement Insmobilework;
+	
+
 	
 	@FindBy(xpath="//*[@id='qtnMobileNumber_Templates_ContactInfo_124_']")
 	@CacheLookup
 	WebElement Insmobile;
 	
-	@FindBy(xpath="//*[@id='qtnPhoneNumber_Templates_AskPhone_126_']")
-	@CacheLookup
-	WebElement Insmobiletwo;
-	
-	@FindBy(xpath="//*[@id='qtnPhoneNumber_Templates_AskPhone_125_']")
-	@CacheLookup
-	WebElement Insmobilethree;
+
 	
 	@FindBy(xpath="//*[@id='qtnEmail_Templates_AskEmail_127_']")
 	@CacheLookup
@@ -217,15 +200,116 @@ public class NonSuperEappPage extends BaseClass  {
 	@CacheLookup
 	WebElement nexttwo;
 	
+	@FindBy(xpath="//*[@id='uniform-qtnOwnerType_Templates_Owners_AskOwnerType_132__1']")
+	@CacheLookup
+	WebElement ownertype;
+	
+	@FindBy(xpath="//*[@id='uniform-qtnInsuredIsOwner_Owners_129_']")
+	@CacheLookup
+	WebElement insuredasowner;
+	
+	@FindBy(xpath="//*[@id='qtnOwnerOfPurpose_Templates_Owners_OwnerOfPurposeInfo_140__chosen']")
+	@CacheLookup
+	WebElement ownerpurpose;
+	
+	@FindBy(xpath="//ul[@class='chosen-results'][1]/li")
+	@CacheLookup
+	List <WebElement> selectownerpurpose;
+	
+	@FindBy(xpath="//*[@id='navigation-page-section']/div[3]/a")
+	@CacheLookup
+	WebElement nextthree;
+	
+	@FindBy(xpath="//*[@id='qtnOutsideProvideBeneficiaryLater_Beneficiaries_189_']")
+	@CacheLookup
+	WebElement nobeneficiary;
+	
+	@FindBy(xpath="//*[@id='navigation-page-section']/div[3]/a")
+	@CacheLookup
+	WebElement nextfour;
+	
+	@FindBy(xpath="//*[@id='qtnPremiumFrequency_Templates_Payments_PaymentSchedule_226__1']")
+	@CacheLookup
+	WebElement premfreq;
 	
 	
+	@FindBy(xpath="//*[@id='qtnOutsidePaymentMethod_Templates_Payments_PaymentMethod_227__chosen']/a")
+	@CacheLookup
+	WebElement clickpaymentmethod;
+	
+	@FindBy(xpath="//ul[@class='chosen-results'][1]/li")
+	@CacheLookup
+	List <WebElement> selectpaymentmethod;
+	
+	@FindBy(xpath="//*[@id='navigation-page-section']/div[3]/a")
+	@CacheLookup
+	WebElement nextfive;
+	
+	@FindBy(xpath="//*[@id='navigation-page-section']/div[3]/a")
+	@CacheLookup
+	WebElement nextsix;
+	
+	@FindBy(xpath="//span/input[@id='qtnDutyOfDisclosureNoMisrepresentationAgree_Declarations_241_']")
+	@CacheLookup
+	WebElement clickdecone;
+	
+	@FindBy(xpath="//span/input[@id='qtnInsuredOwnerDeclarationAgree_Declarations_241_']")
+	@CacheLookup
+	WebElement clickdectwo;
+	
+	@FindBy(xpath="//span/input[@id='qtnMedicalAuthority1Agree_Declarations_241_']")
+	@CacheLookup
+	WebElement clickdecthree;
+	
+	@FindBy(xpath="//span/input[@id='qtnMedicalAuthority2Agree_Declarations_241_']")
+	@CacheLookup
+	WebElement clickdecfour;
+	
+	@FindBy(xpath="//span/input[@id='qtnAdviserAgree_Declarations_241__1']")
+	@CacheLookup
+	WebElement clickdecfive;
+	
+	
+	@FindBy(xpath="//span/input[@id='qtnAdviserAcknowledgement4_Declarations_241_']")
+	@CacheLookup
+	WebElement clickdecsix;
+	
+	@FindBy(xpath="//span/input[@id='qtnTargetMarket1_Declarations_241__1']")
+	@CacheLookup
+	WebElement clickdecseven;	
 
 	
+	@FindBy(xpath="//*[@id='navigation-page-section']/div[3]/a")
+	@CacheLookup
+	WebElement nextseven;
+	
+	@FindBy(xpath="//*[@id='qtnPersonalStatementMethods_PersonalStatement_243__3']")
+	@CacheLookup
+	WebElement scanandattach;
 	
 
-
-					
-					
+	@FindBy(xpath="//*[@id='uniform-qtnMedicalExams_PersonalStatement_243__2']")
+	@CacheLookup
+	WebElement clearviewteam;
+	
+	@FindBy(xpath="//*[@id='navigation-page-section']/div[3]/a")
+	@CacheLookup
+	WebElement nexteight;
+	
+	@FindBy(id="btnSubmit")
+	@CacheLookup
+	WebElement submiteapp;
+	
+	
+	@FindBy(xpath="//*[@id='question-page-completed']/li/a/span[1]")
+	@CacheLookup
+	WebElement checkfinalisesubmit;
+	
+	@FindBy(xpath="//*[@id='modal-yes-no-radio-button-no']")
+	@CacheLookup
+	WebElement Nopdf;
+	
+	
 
 	
 // Action on Web Elements(Methods)
@@ -423,7 +507,7 @@ public class NonSuperEappPage extends BaseClass  {
 	
 	public void Insaddset(String address) throws InterruptedException {
 		Insaddress.sendKeys(address);
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 		Insaddress.sendKeys(Keys.ARROW_DOWN,Keys.ENTER);
 	}	
 	
@@ -432,21 +516,20 @@ public class NonSuperEappPage extends BaseClass  {
 		Insmailingaddress.click();
 	}
 	
-	public void Insnumoneset(String numone) {
+	public void Insnumhome(String numone) {
 		
-		Insmobile.clear();
-		Insmobile.sendKeys(numone);
+		Insmobilehome.sendKeys(numone);
 	}
 	
-	public void Insnumtwoset(String numtwo) {
+	public void Insnumwork(String numtwo) {
 		
-		Insmobiletwo.clear();
-		Insmobiletwo.sendKeys(numtwo);
+		
+		Insmobilework.sendKeys(numtwo);
 	}
 	
-	public void Insnumthreeset(String numthree) {		
-		Insmobilethree.clear();
-		Insmobilethree.sendKeys(numthree);
+	public void Insnummobile(String numthree) {		
+		
+		Insmobile.sendKeys(numthree);
 	}
 	
 	public void Insemailset(String Insemailid) {
@@ -460,18 +543,122 @@ public class NonSuperEappPage extends BaseClass  {
 	}
 	
 	
+	public void clickownertypeIndividual() {
+		ownertype.click();
+	}
 	
+	public void clickinsuredasowner() {
+		insuredasowner.click();
+	}
 	
+	public void clickownerpurpose() {
+		ownerpurpose.click();
 
-
+	}
 	
-
-			
+	public void selectownpurp() {
+		for(WebElement ownpurptype:selectownerpurpose) {
+			if(ownpurptype.getText().equals("Business – Key person capital or revenue")) {
+				ownpurptype.click();
+			}
+		}
+	}
 	
 	
-
+	public void threenext() {
+		nextthree.click();
+	}
+	
+	public void Nobeneficiaryselection() {
+		nobeneficiary.click();
+	}
+	
+	public void fournext() {
+		nextfour.click();
+	}
+	
+	public void clickannualfrequency() {
+		premfreq.click();
+	}
+	
+	public void clickBpaymethod() {
+		clickpaymentmethod.click();
+	}
+	
+	public void selectpaymentmethod() {
+		for(WebElement paymenttype: selectpaymentmethod) {
+			if(paymenttype.getText().equals("BPAY")) {
+				paymenttype.click();
+			}
+		}
+	}
 		
+	public void fivenext() {
+		nextfive.click();
+	}
 	
+	public void sixnext() {
+		nextsix.click();
+	}
+	
+	public void declarationone() {
+		clickdecone.click();
+	}
+	
+	public void declarationtwo() {
+		clickdectwo.click();
+	}
+	
+	public void declarationthree() {
+		clickdecthree.click();
+	}
+	
+	public void declarationfour() {
+		clickdecfour.click();
+	}
+	
+	public void declarationfive() {
+		clickdecfive.click();
+	}
+	
+	public void declarationsix() {
+		clickdecsix.click();
+	}
+	
+	
+	public void declarationseven() {
+		clickdecseven.click();
+	}
+	
+
+	
+	public void sevennext() {
+		nextseven.click();
+	}
+	
+	public void scanandattachclick() {
+		scanandattach.click();
+	}
+	
+	public void clearviewteamclick() {
+		clearviewteam.click();
+	}
+	
+	public void eightnext() {
+		nexteight.click();
+	}
+	
+	public void submiteappdone() {
+		submiteapp.click();
+	}		
+	
+	public void gotofinalise() {
+		checkfinalisesubmit.click();
+	}
+	
+	public void NoPdfrequired() {
+		Nopdf.click();
+	}
 }
 		
 

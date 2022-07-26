@@ -93,7 +93,15 @@ public class Reporting extends TestListenerAdapter {
 	public void onTestSkipped(ITestResult tr) {
 		
 		logger = extent.createTest(tr.getName());
+		String screenshotPath = System.getProperty("user.dir")+"\\Screenshots\\"+tr.getName()+".png";
 		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE));
+		
+		File f = new File(screenshotPath);
+		
+		if(f.exists())
+		{
+		logger.skip(MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());		
+		}
 	}
 	
 	public void onFinish(ITestContext testContext) {

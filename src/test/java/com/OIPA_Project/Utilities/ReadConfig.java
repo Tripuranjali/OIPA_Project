@@ -49,6 +49,22 @@ public class ReadConfig {
 		return MsEdgePath;
 	}
 	
+	public String getOIPAUrl() {
+		String oipaurl=p.getProperty("OIPASITURL");
+		return oipaurl;
+	}
+	
+	public String getOipaUserName() {
+		String oipausername=p.getProperty("OIPAUsername");
+		return oipausername;
+		
+	}
+	
+	public String getOipaPassWord() {
+		String oipapassword=p.getProperty("OIPAPassword");
+		return oipapassword;
+		
+	}
 	
 
 }
